@@ -14,51 +14,51 @@ export default function Portfolio() {
   }, []);
 
   const links = [
-    { icon: <Github />, url: "https://github.com/josuemarcos", label: "GitHub" },
-    { icon: <Linkedin />, url: "https://linkedin.com/in/josuemarcos", label: "LinkedIn" },
-    { icon: <Mail />, url: "mailto:josue@email.com", label: "E-mail" },
+    { icon: <Github />, url: "https://github.com/josu-marcos-dev", label: "GitHub" },
+    { icon: <Linkedin />, url: "https://www.linkedin.com/in/josu%C3%A9-marcos-532a491b4/", label: "LinkedIn" },
+    { icon: <Mail />, url: "https://mail.google.com/mail/?view=cm&fs=1&to=josuemarcosdasilva@gmail.com", label: "E-mail" },
   ];
+
+  
+
 
   const projects = [
     {
-      title: "Living Better Me",
-      description: "Criação de conteúdo e estruturação do site de uma startup de saúde mental.",
-      link: "https://wpss.livingbetterme.com/",
-      image: "https://via.placeholder.com/400x200.png?text=Living+Better+Me",
-      skills: ["React", "Figma", "Tailwind CSS"],
+      title: "Analisador de Dados de Rede Social",
+      description: "Criação de um analisador que extrai dados da rede social Reddit usando sua API e gera insights.",
+      link: "https://github.com/josu-marcos-dev/Analisador-de-Dados-de-Rede-Social",
+      image: "/images/imagem01.png",
+      skills: ["Reddit-API", "Python", "FastAPI", "Streamlit", "Pandas"],
     },
     {
-      title: "Clone Netflix",
-      description: "Projeto React com API para listagem de filmes e responsividade total.",
-      link: "https://github.com/josuemarcos/netflix-clone",
-      image: "https://via.placeholder.com/400x200.png?text=Clone+Netflix",
-      skills: ["React", "JavaScript", "Tailwind CSS"],
+      title: "Algoritmos de ML em Dados publicos",
+      description: "Projeto universitário onde aplicamos 3 algorítmos de Machine Learning a um banco de dados público",
+      link: "https://github.com/josu-marcos-dev/Algoritmos-ML-Dados",
+      image: "/images/imagem02.png",
+      skills: ["R", "Tidyverse", "Random Forest", "SVM", "Boosting Trees"],
     },
     {
-      title: "Dashboard Financeiro",
-      description: "Painel de controle interativo usando Power BI e integração com banco de dados.",
-      link: "https://github.com/josuemarcos/dashboard-financeiro",
-      image: "https://via.placeholder.com/400x200.png?text=Dashboard",
-      skills: ["Power BI", "Python"],
+      title: "Dashboard Interativo com Dados Públicos",
+      description: "Em desenvolvimento: Um painel visual dinâmico para análise exploratória de bases públicas.",
+      link: "https://github.com/josu-marcos-dev/Dashboard-Interativo-Dados",
+      image: "/images/imagem03.png",
+      skills: ["Python", "Streamlit", "Numpy", "MatPlotLib", "Seaborn", ],
     },
     {
-      title: "Portfólio Artístico",
-      description: "Site para exibir minhas artes e croquis com layout responsivo.",
-      link: "https://github.com/josuemarcos/portfolio-artistico",
-      image: "https://via.placeholder.com/400x200.png?text=Arte",
-      skills: ["Figma", "Tailwind CSS", "JavaScript"],
+      title: "Chatbot Assistente Pessoal",
+      description: "Em desenvolvimento: Um assistente pessoal de IA treinado de forma específica.",
+      link: "https://github.com/josu-marcos-dev/Chatbot-Assistente-Pessoal",
+      image: "/images/imagem04.png",
+      skills: ["Tensorflow", "Scikit-learn", "Python"],
     },
   ];
 
   const skills = [
-    { name: "React", link: "#Living Better Me" },
-    { name: "Node.js", link: "#" },
-    { name: "Tailwind CSS", link: "#Clone Netflix" },
-    { name: "Git", link: "#" },
-    { name: "JavaScript", link: "#Clone Netflix" },
-    { name: "Python", link: "#Dashboard Financeiro" },
-    { name: "Figma", link: "#Living Better Me" },
-    { name: "Power BI", link: "#Dashboard Financeiro" },
+    { name: "Inteligência Artificial", link: "#Chatbot Assistente Pessoal" },
+    { name: "Front-End", link: "#Analisador de Dados de Rede Social" },
+    { name: "Machine Learning", link: "#Algoritmos de ML em Dados publicos" },
+    { name: "Back-End", link: "#Analisador de Dados de Rede Social" },
+    { name: "Dados", link: "#ashboard Interativo com Dados Públicos" },
   ];
 
   const qualities = [
@@ -111,11 +111,10 @@ export default function Portfolio() {
           <h2 className="font-bold">Sobre meu universo</h2>
         </div>
         <p className="text-lg max-w-3xl mx-auto text-gray-300">
-          Bem-vindo ao meu cosmos digital. Me chamo Josue Marcos, tenho 20 anos, sou estudante de Ciência da Computação 
+          Bem-vindo ao meu espaço digital. Me chamo Josue Marcos, tenho 20 anos, sou estudante de Ciência da Computação 
           na Universidade Federal do ABC.<br />
-          Aqui, meus projetos se dispõe tal como planetas em meu sistema solar, e refletem o universo que é minha mente!
-          compartilho minha paixão por tecnologia, meus avanços profissionais e acadêmicos através de meus projetos.<br />
-          Sonho alto, sou ambicioso, estratégico, quero ir além e tenho aversão ao ordinário!<br />
+          Aqui, meus projetos se dispõe tal como planetas no meu sistema solar, e refletem o universo que é minha mente!
+          compartilho minha paixão por tecnologia e meus avanços profissionais e acadêmicos através de meus projetos.<br />
           <br /><b><i>"É justo que aquilo que muito vale, muito custe!"</i></b>
         </p>
       </motion.section>
@@ -190,15 +189,26 @@ export default function Portfolio() {
         <h2 className="text-3xl font-bold mb-4">📄 Me conheça melhor</h2>
         <p className="max-w-3xl mx-auto mb-6 text-gray-300">
           Tenho inglês avançado, espanhol básico, perfil autodidata e gosto de colaborar com equipes diversas.
-          Amo desenhar, aprender coisas novas e aplicar criatividade em tudo que faço — tanto na arte quanto no código.
+          Amo desenhar, aprender e aplicar criatividade em meu trabalho, tanto na arte quanto no código.<br></br>
+          Busco me desenvolver em engenharia de software, IA, dados e ML, integrando conhecimentos de outras
+          como física e matemática. Acredito na interdisciplinaridade como base para criar soluções técnicas sólidas e inovadoras.
         </p>
-        <a
-          href="https://drive.google.com/file/d/1SGA9L6b0iZg1cv5B3E5x7p7kgzqUtwZT/view"
-          target="_blank"
-          className="inline-block mt-4 px-6 py-3 bg-[#1877f2] text-white rounded-full font-medium hover:bg-[#0f5dd0] transition"
-        >
-          Ver meu currículo completo
-        </a>
+        <div className="flex flex-wrap justify-center gap-4 mt-4">
+          <a
+            href="/pdf/curriculo-2025.pdf"
+            download
+            className="px-6 py-3 bg-[#1877f2] text-white rounded-full font-medium hover:bg-[#0f5dd0] transition"
+            >
+            Baixar meu currículo completo
+          </a>
+          <a
+            href="/pdf/resume-2025.pdf"
+            download
+            className="px-6 py-3 bg-[#1877f2] text-white rounded-full font-medium hover:bg-[#0f5dd0] transition"
+            >
+            Download my full resume 
+          </a>
+        </div>
       </motion.section>
 
       <motion.section
@@ -227,7 +237,7 @@ export default function Portfolio() {
         transition={{ duration: 1 }}
       >
         <p className="mb-4 text-gray-400 text-lg">Quer trabalhar comigo?</p>
-        <a href="mailto:josue@email.com" className="inline-flex items-center gap-2 text-lg underline text-[#1877f2] hover:text-white transition">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=josuemarcosdasilva@gmail.com" className="inline-flex items-center gap-2 text-lg underline text-[#1877f2] hover:text-white transition">
           <ArrowDownCircle className="w-5 h-5" /> Envie um e-mail!
         </a>
       </motion.section>
