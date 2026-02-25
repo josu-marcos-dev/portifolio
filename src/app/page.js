@@ -26,14 +26,14 @@ export default function Portfolio() {
     {
       title: "TaskFlow API",
       description: "API RESTful para gerenciamento de tarefas, com implementação de operações CRUD, estruturação modular e foco em organização, autenticação e boas práticas.",
-      link: "https://github.com/josu-marcos-dev/Analisador-de-Dados-de-Rede-Social",
+      link: "https://github.com/josu-marcos-dev/TaskFlow-API-",
       image: "/images/imagem01.png",
-      skills: ["Reddit-API", "Python", "FastAPI", "Streamlit", "Pandas"],
+      skills: ["Linux", "Python", "FastAPI", "Docker", "PostgreSQL", "REST API", "JWT Authentication", "SQL Alchemy"],
     },
     {
       title: "Algoritmos de ML em Dados publicos",
       description: "Projeto universitário onde aplicamos 3 algorítmos de Machine Learning a um banco de dados público",
-      link: "https://github.com/josu-marcos-dev/Algoritmos-ML-Dados",
+      link: "https://github.com/Machine-Learning-UFABC/projeto-final-chocolate",
       image: "/images/imagem02.png",
       skills: ["R", "Tidyverse", "Random Forest", "SVM", "Boosting Trees"],
     },
@@ -45,19 +45,19 @@ export default function Portfolio() {
       skills: ["Python", "Streamlit", "Numpy", "MatPlotLib", "Seaborn", ],
     },
     {
-      title: "Chatbot Assistente Pessoal",
-      description: "Em desenvolvimento: Um assistente pessoal de IA treinado de forma específica.",
-      link: "https://github.com/josu-marcos-dev/Chatbot-Assistente-Pessoal",
+      title: "Chatbot de Inteligência Artificial",
+      description: "Um projeto universitário em grupo onde está sendo desenvolvido um assistente de IA treinado de forma específica.",
+      link: "https://github.com/greenteamhc/gthc-chatbot",
       image: "/images/imagem04.png",
-      skills: ["Tensorflow", "Scikit-learn", "Python"],
+      skills: ["RAG", "Flask", "Python", "Linux"],
     },
   ];
 
   const skills = [
-    { name: "Inteligência Artificial", link: "#Chatbot Assistente Pessoal" },
+    { name: "Inteligência Artificial", link: "#Chatbot de Inteligência Artificial" },
     { name: "Front-End", link: "#Analisador de Dados de Rede Social" },
     { name: "Machine Learning", link: "#Algoritmos de ML em Dados publicos" },
-    { name: "Back-End", link: "#Analisador de Dados de Rede Social" },
+    { name: "Back-End", link: "#TaskFlow API" },
     { name: "Dados", link: "#ashboard Interativo com Dados Públicos" },
   ];
 
@@ -75,7 +75,7 @@ export default function Portfolio() {
     {
       icon: <Heart className="w-6 h-6 text-[#1877f2]" />,
       title: "Valores",
-      text: "Curiosidade, disciplina, determinação, excelência, ética e aprendizado contínuo.",
+      text: "Curiosidade, disciplina, determinação, excelência, compromisso, ética e aprendizado contínuo.",
     },
   ];
 
@@ -189,8 +189,9 @@ export default function Portfolio() {
         <h2 className="text-3xl font-bold mb-4">📄 Me conheça melhor</h2>
         <p className="max-w-3xl mx-auto mb-6 text-gray-300">
           Tenho inglês avançado, espanhol básico, perfil autodidata e gosto de colaborar com equipes diversas.
-          Amo desenhar, aprender e aplicar criatividade em meu trabalho, tanto na arte quanto no código.<br></br>
-          Busco me desenvolver em engenharia de software, IA, dados e ML, integrando conhecimentos de outras
+          Amo desenhar, ler, estudar, escrever, aprender e aplicar criatividade em meu trabalho, tanto na arte quanto no código.<br></br>
+          Busco me desenvolver em engenharia de software, mas me interesso muito pelas áreas de Ciência de Dados, IA e ML, e também possuo uma formação acadẽmica dupla
+          Sou bacharel em Ciência e Tecnologia também, por isso posso amplo conhecimento de Física, Matemática, Biologia e Química avançada!
           como física e matemática. Acredito na interdisciplinaridade como base para criar soluções técnicas sólidas e inovadoras.
         </p>
         <div className="flex flex-wrap justify-center gap-4 mt-4">
