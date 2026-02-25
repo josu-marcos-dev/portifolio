@@ -24,8 +24,8 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Analisador de Dados de Rede Social",
-      description: "Criação de um analisador que extrai dados da rede social Reddit usando sua API e gera insights.",
+      title: "TaskFlow API",
+      description: "API RESTful para gerenciamento de tarefas, desenvolvida em Python, com implementação de operações CRUD, estruturação modular e foco em organização, autenticação e boas práticas de desenvolvimento backend.",
       link: "https://github.com/josu-marcos-dev/Analisador-de-Dados-de-Rede-Social",
       image: "/images/imagem01.png",
       skills: ["Reddit-API", "Python", "FastAPI", "Streamlit", "Pandas"],
