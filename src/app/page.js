@@ -190,9 +190,10 @@ export default function Portfolio() {
         <p className="max-w-3xl mx-auto mb-6 text-gray-300">
           Tenho inglês avançado, espanhol básico, perfil autodidata e gosto de colaborar com equipes diversas.
           Amo desenhar, ler, estudar, escrever, aprender e aplicar criatividade em meu trabalho, tanto na arte quanto no código.<br></br>
-          Busco me desenvolver em engenharia de software, mas me interesso muito pelas áreas de Ciência de Dados, IA e ML, e também possuo uma formação acadẽmica dupla
-          Sou bacharel em Ciência e Tecnologia também, por isso posso amplo conhecimento de Física, Matemática, Biologia e Química avançada!
-          como física e matemática. Acredito na interdisciplinaridade como base para criar soluções técnicas sólidas e inovadoras.
+          Busco me desenvolver em engenharia de software, mas me interesso muito pelas áreas de Ciência de Dados, IA e ML. Possuo uma formação acadẽmica dupla e interdisciplinar
+          por conta disso, além de minha formação (em curso) em Ciência da Computação, também sou bacharel em Ciência e Tecnologia, logo, posso amplo conhecimento de 
+          Física, Matemática, Biologia e Química avançada.<br></br>
+          Acredito na interdisciplinaridade como base para criar soluções técnicas sólidas e inovadoras.
         </p>
         <div className="flex flex-wrap justify-center gap-4 mt-4">
           <a
