@@ -25,7 +25,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "TaskFlow API",
-      description: "API RESTful para gerenciamento de tarefas, desenvolvida em Python, com implementação de operações CRUD, estruturação modular e foco em organização, autenticação e boas práticas de desenvolvimento backend.",
+      description: "API RESTful para gerenciamento de tarefas, com implementação de operações CRUD, estruturação modular e foco em organização, autenticação e boas práticas.",
       link: "https://github.com/josu-marcos-dev/Analisador-de-Dados-de-Rede-Social",
       image: "/images/imagem01.png",
       skills: ["Reddit-API", "Python", "FastAPI", "Streamlit", "Pandas"],
