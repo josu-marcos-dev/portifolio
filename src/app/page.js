@@ -197,14 +197,14 @@ export default function Portfolio() {
         </p>
         <div className="flex flex-wrap justify-center gap-4 mt-4">
           <a
-            href="/pdf/Currículo 26.pdf"
+            href="/pdf/Currículo 2.6.pdf"
             download
             className="px-6 py-3 bg-[#1877f2] text-white rounded-full font-medium hover:bg-[#0f5dd0] transition"
             >
             Baixar meu currículo completo
           </a>
           <a
-            href="/pdf/Resume 26.pdf"
+            href="/pdf/Resume 2.6.pdf"
             download
             className="px-6 py-3 bg-[#1877f2] text-white rounded-full font-medium hover:bg-[#0f5dd0] transition"
             >
